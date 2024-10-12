@@ -10,10 +10,10 @@ export const UserTable: FC<{ users: IUser[] }> = ({ users }) => {
 		<table className='table table-striped table-hover'>
 			<thead className='table-dark'>
 				<tr>
-					<th scope='col'>Имя</th>
-					<th scope='col'>Почта</th>
-					<th scope='col'>Телефон</th>
-					<th scope='col'>Адрес</th>
+					<th scope='col'>Name</th>
+					<th scope='col'>Mail</th>
+					<th scope='col'>Phone</th>
+					<th scope='col'>Address</th>
 				</tr>
 			</thead>
 			<tbody>

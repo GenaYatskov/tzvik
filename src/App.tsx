@@ -8,10 +8,10 @@ const App:FC = () => {
 	const { data: users, error } = useGetUsersQuery()
 
 	return (
-			<div>
-				{error && <p>Ошибка: {error.toString()}</p>}
-				{users ? <UserTable users={users} /> : <p>Нет данных</p>}
-			</div>
+		<div>
+			{error && <p>Error: {error.toString()}</p>}
+			{users ? <UserTable users={users} /> : <p>No data</p>}
+		</div>
 	)
 }
 
